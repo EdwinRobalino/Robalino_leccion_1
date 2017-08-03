@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Robalino_leccion_1</string>
+    <string name="title">Nombre</string>
+    <string name="hint">Ingresa tu nombre</string>
 </resources>
