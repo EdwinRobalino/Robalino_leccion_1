@@ -9,5 +9,7 @@
     <string name="player">Jugador:</string>
     <string name="aciertos">N. de aciertos:</string>
     <string name="fallas">N. de fallas:</string>
+    <string name="corrAns">Correcto! :D</string>
+    <string name="incorAns">Incorrecto! :C</string>
 
 </resources>

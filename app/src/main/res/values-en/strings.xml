@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Robalino_leccion_1</string>
+    <string name="title">Name</string>
+    <string name="hint">Enter your name</string>
+    <string name="task1">Press N. 5</string>
+    <string name="task2">Press N. 2</string>
+    <string name="contbtn">Continue</string>
+    <string name="finbtn">Finish</string>
+    <string name="player">Player:</string>
+    <string name="aciertos">Correct answers:</string>
+    <string name="fallas">Incorrect answers:</string>
+    <string name="corrAns">Correct! :D</string>
+    <string name="incorAns">Wrong :C</string>
+
+</resources>

@@ -22,27 +22,32 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1"/>
+            android:text="1"
+            android:onClick="incorrectbtn"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="2"/>
+            android:text="2"
+            android:onClick="incorrectbtn"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="3"/>
+            android:text="3"
+            android:onClick="incorrectbtn"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="4"/>
+            android:text="4"
+            android:onClick="incorrectbtn"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-           android:text="5"/>
+           android:text="5"
+            android:onClick="correctbtn"/>
 
         <TextView
             android:id="@+id/txtTarea1"
@@ -62,6 +67,7 @@
         android:layout_height="wrap_content"
         android:text="@string/contbtn"
         android:visibility="invisible"
+        android:onClick="pnt2"
         />
 
 </RelativeLayout>

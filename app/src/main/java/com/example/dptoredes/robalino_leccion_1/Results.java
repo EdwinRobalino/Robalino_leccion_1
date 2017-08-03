@@ -5,6 +5,10 @@ import android.os.Bundle;
 
 public class Results extends AppCompatActivity {
 
+    String player;
+    int correct;
+    int incorrect;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
