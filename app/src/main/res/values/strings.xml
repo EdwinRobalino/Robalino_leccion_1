@@ -2,4 +2,12 @@
     <string name="app_name">Robalino_leccion_1</string>
     <string name="title">Nombre</string>
     <string name="hint">Ingresa tu nombre</string>
+    <string name="task1">Presiona el numero 5</string>
+    <string name="task2">Presiona el numero 2</string>
+    <string name="contbtn">Continuar</string>
+    <string name="finbtn">Finalizar</string>
+    <string name="player">Jugador:</string>
+    <string name="aciertos">N. de aciertos:</string>
+    <string name="fallas">N. de fallas:</string>
+
 </resources>

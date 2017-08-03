@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/resultsScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dptoredes.robalino_leccion_1.Results">
+
+
+    <LinearLayout
+        android:id="@+id/nombreFinal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/player"/>
+        <TextView
+            android:id="@+id/nomFInal"
+            android:textSize="25sp"
+            android:paddingLeft="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/aciertos"
+        android:layout_below="@id/nombreFinal"
+        android:text="@string/aciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/fallas"
+        android:layout_below="@id/aciertos"
+        android:text="@string/fallas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/totAciertos"
+        android:layout_below="@id/nombreFinal"
+        android:layout_toRightOf="@id/aciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/totFallas"
+        android:layout_below="@id/aciertos"
+        android:layout_toRightOf="@id/fallas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

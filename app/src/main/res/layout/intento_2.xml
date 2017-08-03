@@ -4,17 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dptoredes.robalino_leccion_1.intento_1">
+    tools:context="com.example.dptoredes.robalino_leccion_1.intento_2">
+
 
     <TextView
-        android:id="@+id/player1"
+        android:id="@+id/player2"
         android:textSize="25sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <LinearLayout
         android:id="@+id/contenedorBotones"
-        android:layout_below="@+id/player1"
+        android:layout_below="@+id/player2"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -42,13 +43,13 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-           android:text="5"/>
+            android:text="5"/>
 
         <TextView
-            android:id="@+id/txtTarea1"
+            android:id="@+id/txtTarea2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/task1"
+            android:text="@string/task2"
             android:paddingTop="25sp"
             android:textAlignment="center"
             android:textSize="25sp"/>
@@ -56,11 +57,11 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btnContinue"
+        android:id="@+id/btnFinish"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/contbtn"
+        android:text="@string/finbtn"
         android:visibility="invisible"
         />
 
