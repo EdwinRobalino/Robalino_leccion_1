@@ -51,5 +51,6 @@ public class intento_2 extends AppCompatActivity {
         inte2.putExtra("playerName", player);
         inte2.putExtra("cor", correct);
         inte2.putExtra("inco", incorrect);
+        startActivity(inte2);
     }
 }
